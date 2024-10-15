@@ -1,0 +1,126 @@
+/* Общие стили */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f8ff; /* Легкий голубой фон */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Стили для хедера */
+header {
+    background-color: #6a5acd; /* Фиолетовый */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для объема */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffeb3b; /* Желтый цвет для ссылок */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Более яркий оттенок желтого при наведении */
+}
+
+/* Стили для секций */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    transition: transform 0.3s ease; /* Анимация на hover */
+}
+
+section:hover {
+    transform: scale(1.02); /* Небольшое увеличение при наведении */
+}
+
+h2 {
+    font-size: 2rem;
+    color: #6a5acd; /* Фиолетовый для заголовков */
+}
+
+/* Стили для проектов */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6a5acd; /* Фиолетовый для футера */
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block; /* Убираем flex для параграфов в футере */
+    text-align: center; /* Убеждаемся, что текст по центру */
+}
+
+
+/* Стили для кнопок и ссылок */
+a {
+    text-decoration: none;
+    color: #6a5acd;
+}
+
+a:hover {
+    color: #ff69b4; /* Розовый цвет при наведении */
+}
+
+/* Стили для эмодзи */
+h1, h2, h3, p {
+    display: flex;
+    align-items: center;
+}
+
+h1, h2 {
+    justify-content: center;
+}
+
+h2::before, h3::before, p::before {
+    margin-right: 10px;
+}
+
+/* Стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для изображений */
+}
